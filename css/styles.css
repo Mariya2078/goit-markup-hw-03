@@ -556,4 +556,20 @@ img {
 }
 .work-once {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap; /*-----------------------------------очень важно*/
+}
+.photo-portfolio-once {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.photo-portfolio-twice {
+  margin-bottom: 30px;
+}
+.descriptin-photo {
+  padding-top: 20px;
+}
+.descriptin-photo-work {
+  padding-top: 4px;
+  padding-bottom: 20px;
 }
