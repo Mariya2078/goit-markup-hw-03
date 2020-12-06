@@ -97,15 +97,10 @@ img {
 .hero {
   background: #2f303a;
   align-items: center;
+  padding: 200px 0;
 }
 
 .modal-button {
-  min-width: 200px;
-  height: 50px;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer; /*рука на кнопке*/
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -119,10 +114,19 @@ img {
   padding-right: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.service-button {
   margin: 0 auto;
   display: block;
+  min-width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer; /*рука на кнопке*/
+  margin-top: 30px;
+  margin-bottom: 200px;
 }
-
 .hero-title {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -134,8 +138,7 @@ img {
   text-transform: uppercase;
   color: #ffffff;
   width: 696px;
-  padding-top: 200px;
-  padding-bottom: 280px;
+
   margin: 0 auto;
 }
 /*OUR WORK IDEA */
@@ -460,4 +463,64 @@ img {
 }
 .nav-foot {
   padding-top: 60px;
+}
+
+/*--------------------------------ПОРТФОЛИО-------------------------------*/
+.header-portfolio {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.work-portfolio {
+  list-style: none;
+  display: flex;
+}
+.navigation-partfolio {
+  display: flex;
+  align-items: center;
+}
+.address-porfolio {
+  display: flex;
+  align-items: center;
+}
+.navigation-logo-partfolio {
+  margin-right: 95px;
+  text-decoration: none;
+}
+.nav {
+  margin-right: 50px;
+}
+.navigation-list-item-port-contact {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.address-porfolio {
+  margin-left: auto;
+}
+.address-mail-port {
+  margin-right: 50px;
+}
+.button {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 95px;
+  margin-bottom: 50px;
+}
+.button-service-white {
+  margin-right: 8px;
+}
+.button-service {
+  margin-right: 8px;
+}
+.photo-once {
+  display: flex;
+  align-items: center;
 }
