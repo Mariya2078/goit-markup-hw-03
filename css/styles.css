@@ -125,7 +125,6 @@ img {
   border-radius: 4px;
   cursor: pointer; /*рука на кнопке*/
   margin-top: 30px;
-  margin-bottom: 200px;
 }
 .hero-title {
   font-family: "Roboto", sans-serif;
@@ -172,8 +171,6 @@ img {
   display: flex;
   list-style: none;
   align-items: center;
-  padding-top: 50px;
-  padding-bottom: 95px;
 }
 .work-idea-optoins {
   font-family: "Roboto", sans-serif;
@@ -203,7 +200,7 @@ img {
 .work-people {
   background: #f5f4fa;
   margin: 0 auto;
-  margin-top: 95px;
+  padding-top: 95px;
 }
 
 .work-process {
@@ -215,8 +212,10 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-top: 90px;
   padding-bottom: 50px;
+}
+.work-blok {
+  padding-top: 90px;
 }
 .person {
   margin-right: 30px;
@@ -562,9 +561,15 @@ img {
 .photo-portfolio-once {
   margin-right: 30px;
   margin-bottom: 30px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 .photo-portfolio-twice {
   margin-bottom: 30px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 .descriptin-photo {
   padding-top: 20px;
