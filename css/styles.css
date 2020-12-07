@@ -572,9 +572,11 @@ img {
   box-sizing: border-box;
 }
 .descriptin-photo {
-  padding-top: 20px;
+  margin-top: 20px;
+  margin-left: 24px;
 }
 .descriptin-photo-work {
   padding-top: 4px;
   padding-bottom: 20px;
+  margin-left: 24px;
 }
