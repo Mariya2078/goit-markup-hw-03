@@ -212,10 +212,11 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .work-blok {
   padding-top: 90px;
+  padding-bottom: 95px;
 }
 .person {
   margin-right: 30px;
@@ -293,7 +294,7 @@ img {
 .cont-footer {
   display: flex;
   align-items: center;
-
+  padding-top: 60px;
   height: 252px;
   background: #2f303a;
 }
@@ -372,6 +373,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+  padding-bottom: 4px;
 }
 .descriptin-photo-work {
   font-family: "Roboto", sans-serif;
@@ -465,9 +467,6 @@ img {
   padding-top: 9px;
 }
 .address-footer-once {
-}
-.nav-foot {
-  padding-top: 60px;
 }
 
 /*--------------------------------ПОРТФОЛИО-------------------------------*/
@@ -571,16 +570,12 @@ img {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
-.descriptin-photo {
-  margin-top: 20px;
-  margin-left: 24px;
-  width: 322px;
-  height: 36px;
+.discription-photo {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-.descriptin-photo-work {
-  margin-top: 4px;
-  margin-bottom: 20px;
-  margin-left: 24px;
-  width: 322px;
-  height: 30px;
+.bord {
+  border: 1px solid #ececec;
 }
