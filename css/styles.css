@@ -164,8 +164,8 @@ img {
 }
 .futer-ul {
   list-style-type: none;
-  padding-top: 20px;
-  padding-bottom: 60px;
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
 .work-ul {
   display: flex;
@@ -220,11 +220,13 @@ img {
 }
 .person {
   margin-right: 30px;
+  margin-bottom: 95px;
 
   background: #ffffff;
 }
 .person-once {
   background: #ffffff;
+  margin-bottom: 95px;
 }
 .name-one {
   font-family: "Roboto", sans-serif;
