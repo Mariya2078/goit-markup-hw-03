@@ -166,7 +166,6 @@ img {
 .futer-ul {
   list-style-type: none;
   padding-top: 20px;
-  padding-bottom: 60px;
 }
 .work-ul {
   display: flex;
@@ -294,6 +293,7 @@ img {
   display: flex;
   align-items: center;
   padding-top: 60px;
+  padding-bottom: 60px;
   height: 252px;
   background: #2f303a;
 }
@@ -528,7 +528,6 @@ img {
   display: flex;
   text-align: center;
   justify-content: center;
-  padding-top: 95px;
   padding-bottom: 50px;
 }
 
@@ -591,4 +590,12 @@ img {
 }
 .bord {
   border-bottom: 1px solid #ececec;
+}
+.gallery {
+  padding-bottom: 95px;
+  padding-top: 95px;
+}
+.address-mail-port.address-mail:hover,/*hover for e-mail address*/
+.address-mail-port:focus {
+  color: #2196f3;
 }
