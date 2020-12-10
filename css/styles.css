@@ -595,7 +595,3 @@ img {
   padding-bottom: 95px;
   padding-top: 95px;
 }
-.address-mail-port.address-mail:hover,/*hover for e-mail address*/
-.address-mail-port:focus {
-  color: #2196f3;
-}
