@@ -47,6 +47,7 @@ img {
 }
 .navigation-list-item {
   margin-right: 50px;
+  text-decoration: none;
 }
 .address-footer {
   display: flex;
@@ -54,6 +55,7 @@ img {
 }
 .navigation-list-item-blue {
   margin-right: 50px;
+  text-decoration: none;
 }
 .container {
   width: 1200px;
@@ -594,4 +596,18 @@ img {
 .gallery {
   padding-bottom: 95px;
   padding-top: 95px;
+}
+.header-phone:hover,/*hover for e-mail address*/
+.header-phone:focus {
+  color: #2196f3;
+}
+
+.navigation-list-item-in:hover,/*hover for e-mail address*/
+.navigation-list-item-in:focus {
+  color: #2196f3;
+}
+
+.navigation-list-item:hover,/*hover for e-mail address*/
+.navigation-list-item:focus {
+  color: #2196f3;
 }
